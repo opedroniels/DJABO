@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body { 
+    font-size: 100%;
+    background: linear-gradient(90deg, #471010 6.77%, rgba(235, 46, 46, 0.72) 134.01%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.logotopo{
+    height: 72px;
+}
+
+.textotopo{
+    display: flex;
+    gap: 50px;
+}
+
+.escritatopo{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.conteudo{
+    border-top: 0.4px solid rgb(241, 134, 134);
+    
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.principaltext{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    
+}
+
+.principaltext-titulo{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 90px;
+}
+
+.principaltext-subtitulo{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 200;
+    font-size: 30px;
+}
+.principaltext-botao{
+    background-color: #FFE91F;
+    width: 154px;
+    height: 46px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #070707;
+}
+
+.fotodj{
+    
+    margin-top: 70px;
+    margin-left: 5px;
+    height: 668px;
+}
+
+.principaltext-botao:hover{
+    background-color: #c7b40e;
+}
